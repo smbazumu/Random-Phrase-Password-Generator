@@ -20,7 +20,7 @@ body.dark {
 
 .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 1.125rem;
 }
 
 .header {
@@ -218,7 +218,7 @@ body.dark .passwordoptions input {
 @media (max-width: 25rem) {
     body {
         max-width: 25rem;
-        margin: 0 0.675rem;
+        margin: 0 auto;
     }
 
     .passwordinstruction {
@@ -232,7 +232,6 @@ body.dark .passwordoptions input {
 
     .passwordoptions div p {
         font-size: 1.125rem;
-        margin-left: 0.625rem;
     }
 
     #generate {
